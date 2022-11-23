@@ -1,13 +1,69 @@
 <!DOCTYPE html>
-<html>
+<html style="width: 100%; height: 100%;">
 <head>
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <style>
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+</style>
+<style>
+* { box-sizing: border-box; }
 	body {
 	background-image: url("images/spacebgani4.gif");
 	}
-</style>
-<style>
+	
 .center {
   display: block;
   margin-left: auto;
@@ -16,9 +72,43 @@
 }
 </style>
 </head>
-<body>
-<p><img src="images/BBSpin.gif" alt="BB" class="center" style="width:20%;"></p>
-<h1>Welcome to website.</h1>
-<p>I love u. </p>
+<body style="width: 100%; height: 100%;">
+
+<div style="width: 100%; height: 100%; display: flex; justify-content: center; align-items: center; position: relative;">
+
+<img src="images/ButtonBlank.png" alt="Button" style="position: absolute; center; width: 500px; height: 500px;">
+<img src="images/BBSpin.gif" alt="BB" style="center; position: absolute; width: 370px; height: 370px">
+
+<div style="position: absolute; display: flex; align-items: center; justify-content: center;">
+
+<!--This is a reference button circle thing to get the placement of the other buttons right-->
+<!--<img src="images/ButtonBlank.png" alt="Button" style="position: absolute; center; width: 350px; height: 350px;">
+<img src="images/ButtonBlank.png" alt="Button" style="position: absolute; center; width: 10px; height: 999px;">-->
+
+<!--About Me-->
+<a href="underconstruction.html"style="position: absolute; bottom: -300px; left: 25px;">
+<img src="images/Button_AboutMe.png" alt="About Me" style="center; width: 150px; height: 150px;"></a>
+<!--Web Ring-->
+<a href="underconstruction.html"style="position: absolute; bottom: -190px; left: 135px;">
+<img src="images/Button_WebRing.png" alt="Web Ring" style="center; width: 125px; height: 125px;"></a>
+<!--Find Me-->
+<a href="underconstruction.html"style="position: absolute; bottom: -65px; left: 170px;">
+<img src="images/Button_FindMe.png" alt="Where to Find Me" style="center; width: 100px; height: 100px;"></a>
+
+<!--Video Games-->
+<a href="underconstruction.html"style="position: absolute; bottom: 145px; left: -175px;">
+<img src="images/Button_VideoGames.png" alt="Video Games" style="center; width: 150px; height: 150px;"></a>
+<!--Artwork-->
+<a href="underconstruction.html"style="position: absolute; bottom: 60px; left: -260px;">
+<img src="images/Button_Artwork.png" alt="Artwork" style="center; width: 125px; height: 125px;"></a>
+<!--Surprise-->
+<a href="underconstruction.html"style="position: absolute; bottom: -40px; left: -270px;">
+<img src="images/Button_Surprise.png" alt="Surprise" style="center; width: 100px; height: 100px;"></a>
+
+</div>
+</div>
+<!--<h1>Welcome to website.</h1>
+<p>I love u. </p><!-->
+
 </body>
 </html>
